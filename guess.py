@@ -1,8 +1,9 @@
 from random import randint
 num = randint(1,10)
 print num
-def main():
+ddef main():
     print "Welcome to the number guessing game!"
+    i = 0
     while True:
         i += 1
         if i <= 5:
@@ -18,6 +19,6 @@ def main():
                 print "I'm sorry,Guess again!"
         else:
             print "Game Over!"
-break
+            break
 if __name__ == "__main__":
-    main()
+main()
