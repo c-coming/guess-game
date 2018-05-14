@@ -18,7 +18,7 @@ def main():
                 else:
                     print "I'm sorry, you're wrong."
             except:
-                print "I'm sorry,Guess again!"
+                print "Please enter a number!"
         else:
             print "Game Over!"
             break
