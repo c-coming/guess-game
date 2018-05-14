@@ -10,12 +10,15 @@ def main():
         i += 1
         if i <= 5:
             print "Time:",i
-            guess = raw_input("Please guess a number between 1 to 10: ")
-            if int(guess) == num:
-                print "This is right!"
-                break
-            else:
-                print "I'm sorry, you're wrong."
+            try:
+                guess = raw_input("Please guess a number between 1 to 10: ")
+                if int(guess) == num:
+                    print "This is right!"
+                    break
+                else:
+                    print "I'm sorry, you're wrong."
+            except:
+                print "I'm sorry,Guess again!"
         else:
             print "Game Over!"
             break
