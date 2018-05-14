@@ -1,6 +1,8 @@
-from random import randint
+# -*- coding: utf-8 -*-
+from random import randint #导入模块
 num = randint(1,10)
-print num
+print "Num:",num
+
 def main():
     print "Welcome to the number guessing game!"
     i = 0
