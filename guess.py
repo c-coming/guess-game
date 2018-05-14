@@ -1,7 +1,7 @@
 from random import randint
 num = randint(1,10)
 print num
-ddef main():
+def main():
     print "Welcome to the number guessing game!"
     i = 0
     while True:
@@ -21,4 +21,4 @@ ddef main():
             print "Game Over!"
             break
 if __name__ == "__main__":
-main()
+    main()
